@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Games Module/">
+    <Project Path="src/GameLens.Games.Contracts/GameLens.Games.Contracts.csproj" Id="4e9a55c1-92e0-4931-89bd-8fb7a4944de1" />
+    <Project Path="src/GameLens.Games/GameLens.Games.csproj" Id="0946ddb4-f47e-4b9a-a519-49aeee26fa5a" />
+  </Folder>
+  <Folder Name="/_Host/">
+    <Project Path="src/GameLens.Api/GameLens.Api.csproj" Id="31086971-5908-4f24-a861-031661ee3172" />
+    <Project Path="src/GameLens.AppHost/GameLens.AppHost.csproj" Id="edacd786-f4be-4114-b63a-0d773c110f06" />
+    <Project Path="src/GameLens.ServiceDefaults/GameLens.ServiceDefaults.csproj" Id="d36cf6d9-d0a8-45c8-9ace-9b9b3fd592d2" />
+  </Folder>
+  <Folder Name="/__Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+  </Folder>
+</Solution>

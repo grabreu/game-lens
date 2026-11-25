@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <ItemGroup>
+    <ProjectReference Include="..\GameLens.Games.Contracts\GameLens.Games.Contracts.csproj" />
+  </ItemGroup>
+  
+</Project>
