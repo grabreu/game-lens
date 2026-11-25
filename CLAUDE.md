@@ -45,11 +45,18 @@ Not onboarding material; keep it concise and skimmable.
 
 ### Source
 
-- TODO: describe the source layout once the first code lands.
+- `src/GameLens.Api`: Minimal API host (OpenAPI document and Scalar UI).
+- `src/GameLens.AppHost`: Aspire AppHost that orchestrates the API.
+- `src/GameLens.ServiceDefaults`: shared Aspire defaults (telemetry, health checks, resilience, service discovery).
+- `src/GameLens.Games`: games module implementation.
+- `src/GameLens.Games.Contracts`: games module public contracts.
+- `tests/`: test projects (none yet).
+
+Target framework, nullable, and implicit usings come from `Directory.Build.props`; package versions come from `Directory.Packages.props`.
 
 ### Validation
 
-- TODO: define the validation commands (format, build, test) and the CI workflow.
+Run `dotnet build GameLens.slnx` and `dotnet format GameLens.slnx --verify-no-changes` before considering a change done. TODO: add the test command and the CI workflow (`.github/workflows/ci.yml`) once they exist.
 
 ### Open Questions
 
